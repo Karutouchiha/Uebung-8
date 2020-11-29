@@ -16,6 +16,7 @@ public class Main extends Application {
 
         LoginController loginC = loader.getController();
         loginC.setStage(primaryStage);
+        loginC.addRegister("Karuto","Cisco");
 
         primaryStage.setTitle("Log in");
         primaryStage.setScene(new Scene(root));
